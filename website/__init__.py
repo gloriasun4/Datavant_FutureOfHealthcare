@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request
-from flask_mysqldb import MySQL,MySQLdb
+# from flask_mysqldb import MySQL,MySQLdb
 
 def create_app():
     app = Flask(__name__)
